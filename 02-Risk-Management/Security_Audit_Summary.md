@@ -1,30 +1,59 @@
 # Security Controls & Compliance Assessment
 
-This document summarizes a security audit activity completed as part of Course 2 of the Google Cybersecurity Professional Certificate. The activity involved evaluating existing security controls and identifying compliance gaps related to PCI DSS, GDPR, and SOC principles.
+This document summarizes a security controls and compliance audit completed as part of Course 2 of the Google Cybersecurity Professional Certificate. The activity focused on evaluating administrative, technical, and physical security controls, as well as identifying compliance gaps related to PCI DSS, GDPR, and SOC principles.
+
+---
 
 ## Objective
-To assess an organization's security posture by reviewing administrative, technical, and physical controls, and to identify risks related to non-compliance with industry standards.
+To assess an organization’s security posture by reviewing existing controls, identifying areas of risk, and providing recommendations to improve security and compliance.
+
+---
 
 ## Control Areas Reviewed
-- Administrative controls (least privilege, password policies, separation of duties)
-- Technical controls (firewalls, IDS, antivirus, encryption, backups)
-- Physical controls (locks, CCTV, fire detection systems)
+- **Administrative Controls**
+  - Least privilege
+  - Password policies
+  - Separation of duties
+  - Disaster recovery planning
+
+- **Technical Controls**
+  - Firewalls
+  - Intrusion detection systems (IDS)
+  - Antivirus software
+  - Backups
+  - Encryption
+  - Password management systems
+
+- **Physical Controls**
+  - Locks for offices and facilities
+  - Closed-circuit television (CCTV)
+  - Fire detection and prevention systems
+
+---
 
 ## Compliance Areas Reviewed
-- PCI DSS (credit card data protection)
-- GDPR (data privacy and breach notification requirements)
-- SOC 1 / SOC 2 principles (confidentiality, integrity, availability)
+- **Payment Card Industry Data Security Standard (PCI DSS)**
+- **General Data Protection Regulation (GDPR)**
+- **System and Organization Controls (SOC 1 / SOC 2)**
+
+---
 
 ## Key Findings
-- Identified missing or incomplete security controls that increase organizational risk
-- Noted gaps in encryption and password management practices
-- Recognized compliance shortcomings related to data protection and access controls
+- Identified gaps in encryption and password management controls
+- Noted absence of formal intrusion detection and disaster recovery planning
+- Observed weaknesses in compliance with PCI DSS and GDPR requirements
+- Recognized insufficient access control and data protection measures related to SOC principles
+
+---
 
 ## Recommendations
-- Implement stronger access control and least-privilege policies
-- Enhance encryption and password management systems
-- Improve monitoring and incident response readiness
-- Align controls more closely with PCI DSS, GDPR, and SOC requirements
+- Implement encryption for sensitive and payment-related data
+- Deploy intrusion detection systems and improve monitoring capabilities
+- Establish formal password management and least-privilege access policies
+- Develop and test an incident response and breach notification plan
+- Align security controls more closely with PCI DSS, GDPR, and SOC 2 standards
+
+---
 
 ## How This Applies to a SOC Role
-Understanding security controls and compliance requirements allows SOC analysts to better assess alerts, recognize control failures, and prioritize incidents based on organizational risk and regulatory impact.
+Understanding security controls and compliance requirements enables SOC analysts to identify control failur
