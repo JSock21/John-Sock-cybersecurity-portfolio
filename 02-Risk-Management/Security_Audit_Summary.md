@@ -56,4 +56,4 @@ To assess an organization’s security posture by reviewing existing controls, i
 ---
 
 ## How This Applies to a SOC Role
-Understanding security controls and compliance requirements enables SOC analysts to identify control failur
+Understanding security controls and compliance requirements enables SOC analysts to identify control failures, assess organizational risk, and prioritize security incidents based on potential impact and regulatory considerations.
