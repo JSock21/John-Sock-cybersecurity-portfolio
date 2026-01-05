@@ -55,4 +55,5 @@ I am motivated by complex challenges and enjoy breaking down difficult technical
 ---
 
 ## 📬 Contact
-- LinkedIn: *(add your LinkedIn URL here)*
+- LinkedIn: www.linkedin.com/in/johnsockahl
+
