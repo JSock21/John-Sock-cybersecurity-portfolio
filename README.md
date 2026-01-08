@@ -1,11 +1,11 @@
 # Cybersecurity Portfolio – John Sock
 
-Aspiring SOC Analyst transitioning into cybersecurity after a successful career in sales leadership and technical field work. This portfolio documents my structured learning, risk-based security thinking, and practical application of cybersecurity concepts as I prepare for an entry-level cybersecurity role.
+Aspiring SOC Analyst transitioning into cybersecurity after a successful career in sales leadership and earlier technical field work. This portfolio documents my structured learning, risk-based security thinking, and hands-on application of cybersecurity concepts as I prepare for an entry-level security operations role.
 
 ---
 
 ## 🎯 Career Objective
-To secure a SOC Analyst or Junior Cybersecurity Analyst position where I can contribute to threat detection, risk assessment, and incident response in a fast-paced, remote environment while continuing to grow my technical skill set.
+To secure a SOC Analyst or Junior Cybersecurity Analyst position where I can contribute to threat detection, risk assessment, and incident response in a fast-paced, remote environment while continuing to expand my technical skill set.
 
 ---
 
@@ -24,14 +24,15 @@ I am motivated by complex challenges and enjoy breaking down difficult technical
 - Threat identification and analysis
 - Network security fundamentals
 - Linux fundamentals
-- Log analysis & SIEM concepts
+- Log analysis and SIEM concepts
 
 ---
 
 ## 📜 Certifications
-- Google Cybersecurity Professional Certificate  
-  - Course 1: Foundations of Cybersecurity – **Completed**  
+- **Google Cybersecurity Professional Certificate**
+  - Course 1: Foundations of Cybersecurity – **Completed**
   - Course 2: Risk Management – **Completed**
+  - Course 3: Network Security – **Completed**
 
 ---
 
@@ -40,20 +41,20 @@ I am motivated by complex challenges and enjoy breaking down difficult technical
 | Domain | Description |
 |------|-------------|
 | Foundations | Core cybersecurity concepts and SOC fundamentals |
-| Risk Management | Security domains, frameworks, controls, audits, and playbooks |
-| Incident Response | Structured incident response workflows |
-| Threat Detection | Common threats and indicators of compromise |
-| Labs | Hands-on technical exercises and documentation |
+| Risk Management | Security domains, frameworks, controls, audits, and hardening recommendations |
+| Network Security | Network architecture, TCP/IP, data flow, and network-based security concepts |
+| Incident Response | Structured incident response analysis and documented security events |
+| Labs | Hands-on technical exercises and investigation-focused documentation |
 
 ---
 
 ## 📈 Current Focus
-- Expanding hands-on technical skills (Linux, logs, detection)
-- Continuing structured cybersecurity coursework
-- Building practical SOC-ready documentation and artifacts
+- Developing Linux and SQL fundamentals for security analysis
+- Expanding hands-on SOC investigation skills
+- Preparing for security operations and analyst roles
 
 ---
 
 ## 📬 Contact
-- LinkedIn: www.linkedin.com/in/johnsockahl
+- LinkedIn: https://www.linkedin.com/in/johnsockahl
 
