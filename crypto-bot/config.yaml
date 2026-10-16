@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# crypto-bot: dip-and-bounce BACKTEST configuration.
+# Backtest only. There is no live trading, order placement or API key code.
+# ---------------------------------------------------------------------------
+
+data:
+  pairs: [BTC-USD, ETH-USD]
+  days: 90                 # how many most recent full UTC days to download
+  cache_dir: data          # downloaded candles are cached here (CSV.gz)
+  timeframes_min: [1, 5]   # 1-minute candles, plus 5-minute built from them
+
+# Default strategy parameters (used for the "default settings" row in the report)
+strategy:
+  dip_pct: 1.0             # X: enter when price is X% below its recent high
+  lookback_min: 60         # N: "recent high" = highest price over last N minutes
+  take_profit_pct: 1.5     # Y: sell when price is Y% above entry
+  stop_loss_pct: 2.0       # Z: sell when price is Z% below entry
+  max_hold_min: 240        # T: force-exit after T minutes
+  position_usd: 100        # fixed dollars per trade
+  max_open_positions: 1    # per pair
+  starting_balance_usd: 1000  # paper balance per pair
+
+costs:
+  # Coinbase Advanced Trade, lowest-volume tier ($0-$10K 30-day volume).
+  # Taker on BOTH sides (worst case). See report.md for the source.
+  fee_pct_per_side: 0.60
+  slippage_pct_per_side: 0.05
+
+split:
+  train_days: 60           # days 1-60 used to choose parameters
+  test_days: 30            # days 61-90 held out, never used for choosing
+
+sweep:
+  dip_pct:         [0.3, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0]
+  take_profit_pct: [0.5, 0.75, 1.0, 1.5, 2.0, 3.0, 4.0]
+  stop_loss_pct:   [0.5, 1.0, 1.5, 2.0, 3.0, 5.0]
+  lookback_min:    [15, 30, 60, 120, 240]
+  max_hold_min:    [30, 60, 120, 240, 480, 1440]
+  top_n: 5
+  min_trades: 10       # a setting must trade at least this often to be ranked
